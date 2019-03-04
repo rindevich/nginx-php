@@ -1,14 +1,14 @@
-# NGINX PHP 7.3
+# NGINX PHP 7.2
 
 Nginx 1.15.7
 
-PHP 7.3 FPM with OPcache and APCu.
+PHP 7.2 FPM with OPcache and APCu.
 
 Default settings:
 
-[memory_limit] = 1024
+[memory_limit] = 2024
 
-[post_max_size] = 100M
+[post_max_size] = 200M
 
 Default nginx working dir: /usr/share/nginx/html
 
